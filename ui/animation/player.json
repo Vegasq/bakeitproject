@@ -1,0 +1,188 @@
+{"frames": [
+
+{
+	"filename": "walking-character-_00000.png",
+	"frame": {"x":463,"y":1,"w":229,"h":343},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":343},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00001.png",
+	"frame": {"x":694,"y":1350,"w":229,"h":331},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":331},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00002.png",
+	"frame": {"x":694,"y":1683,"w":229,"h":331},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":331},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00003.png",
+	"frame": {"x":463,"y":346,"w":229,"h":340},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":340},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00004.png",
+	"frame": {"x":232,"y":704,"w":229,"h":347},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":347},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00005.png",
+	"frame": {"x":1,"y":1423,"w":229,"h":350},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":350},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00006.png",
+	"frame": {"x":232,"y":353,"w":229,"h":349},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":349},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00007.png",
+	"frame": {"x":232,"y":1053,"w":229,"h":346},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":346},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00008.png",
+	"frame": {"x":463,"y":1372,"w":229,"h":339},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":339},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00009.png",
+	"frame": {"x":463,"y":688,"w":229,"h":340},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":340},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00010.png",
+	"frame": {"x":463,"y":1030,"w":229,"h":340},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":340},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00011.png",
+	"frame": {"x":694,"y":342,"w":229,"h":337},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":337},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00012.png",
+	"frame": {"x":694,"y":1016,"w":229,"h":332},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":332},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00013.png",
+	"frame": {"x":463,"y":1713,"w":229,"h":326},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":326},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00014.png",
+	"frame": {"x":694,"y":681,"w":229,"h":333},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":333},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00015.png",
+	"frame": {"x":694,"y":1,"w":229,"h":339},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":339},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00016.png",
+	"frame": {"x":232,"y":1401,"w":229,"h":346},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":346},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00017.png",
+	"frame": {"x":232,"y":1,"w":229,"h":350},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":350},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00018.png",
+	"frame": {"x":1,"y":1069,"w":229,"h":352},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":352},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00019.png",
+	"frame": {"x":1,"y":1,"w":229,"h":354},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":354},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00020.png",
+	"frame": {"x":1,"y":357,"w":229,"h":354},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":354},
+	"sourceSize": {"w":229,"h":357}
+},
+{
+	"filename": "walking-character-_00021.png",
+	"frame": {"x":1,"y":713,"w":229,"h":354},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":229,"h":354},
+	"sourceSize": {"w":229,"h":357}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "player.png",
+	"format": "RGBA8888",
+	"size": {"w":924,"h":2040},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3cb6d84dcab060708bc8a6d4658ea5f4:9fa55763986bf36c4a8e2dd58fc1a9fd:86d5339b780aedd87b35e2b7c0a7e11b$"
+}
+}

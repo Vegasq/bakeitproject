@@ -1,10 +1,10 @@
-class GameOver {
+class Win {
 
     static Singletone(game){
-        if (GameOver.hasOwnProperty("_singletone")) {
-            return GameOver._singletone;
+        if (Win.hasOwnProperty("_singletone")) {
+            return Win._singletone;
         } else {
-            this._singletone = new GameOver(game);
+            this._singletone = new Win(game);
             return this._singletone;
         }
     }
@@ -14,11 +14,11 @@ class GameOver {
             this.game = game;
 
             this.armacounter = 0;
-            this.armas = [];
+            this.bananas = [];
         }
 
         preload(){
-            var that = GameOver.Singletone();
+            var that = Win.Singletone();
             that.game.load.image('alona', 'alona.png');
 
             that.game.load.image('background', 'ui/background/bg-seamless-3840x1080px.jpg');
@@ -35,7 +35,7 @@ class GameOver {
             that.game.load.image('start', 'ui/start_button.png');
         }
         create(){
-            var that = GameOver.Singletone();
+            var that = Win.Singletone();
 
             that.game.scale.setMinMax(800, 600, 1920, 1080);
 
@@ -96,25 +96,25 @@ class GameOver {
 
           var style = {
             font: "120px Arial",
-            fill: "yellow",
+            fill: "red",
             align: "center" };
           this.game_over_text = that.game.add.group();
-          var text1 = that.game.add.text(that.game.world.width/2-190, 350, "GAME", style, this.game_over_text);
-          var text2 = that.game.add.text(that.game.world.width/2-190, 600, "OVER", style, this.game_over_text);
+          var text1 = that.game.add.text(that.game.world.width/2-130, 350, "YOU", style, this.game_over_text);
+          var text2 = that.game.add.text(that.game.world.width/2-130, 600, "WIN", style, this.game_over_text);
         }
         update(){
-          var that = GameOver.Singletone();
+          var that = Win.Singletone();
 
-          if (this.armas.length < 100) {
+          if (that.bananas.length < 100) {
             var arma;
             arma = that.game.add.sprite(
               that.game.world.width * Math.random(),
               that.game.world.height * Math.random(),
-              'armadillo');
-            this.armas.push(arma);
+              'banana');
+            that.bananas.push(arma);
           }
-          for (var i = 0; i < that.armas.length; i++) {
-            that.armas[i].rotation += 0.1;
+          for (var i = 0; i < that.bananas.length; i++) {
+            that.bananas[i].rotation += 0.1;
           }
 
           that.game.world.bringToTop(that.button);
@@ -128,16 +128,11 @@ class GameOver {
 
         }
         render(){
-            var that = GameOver.Singletone();
+            var that = Win.Singletone();
         }
 
         btnclicked(){
-            var that = GameOver.Singletone();
+            var that = Win.Singletone();
             that.game.state.start("gameplay");
         }
-}
-
-
-function generateHexColor() {
-    return '#' + ((0.5 + 0.5 * Math.random()) * 0xFFFFFF << 0).toString(16);
 }
